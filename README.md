@@ -17,8 +17,13 @@ The pipeline employs a dual modeling approach to benchmark and maximize performa
 ## Evaluation
 Model performance is evaluated using an atomic, clip-level soft-voting strategy. This ensures segment-level prediction probabilities are mathematically aggregated across entire audio tracks, preventing state contamination and yielding highly reliable, production-ready accuracy metrics and ROC curves.
 
+* **Deep Learning (EfficientNetV2B0) Final Clip-Level Accuracy:** **82.55%** 
+* **Baseline (Random Forest) Test Accuracy:** **58.39%**
+
 ## Usage and Setup
 To execute this pipeline locally, ensure you have a standard Python environment with the required dependencies installed.
+
+## Usage and Setup
 
 1. **Environment Setup:**
    ```bash
